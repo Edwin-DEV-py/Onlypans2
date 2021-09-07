@@ -291,14 +291,17 @@ namespace Onlypans
             this.button2.TabIndex = 21;
             this.button2.Text = "Exportar";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // richTextBox1
             // 
+            this.richTextBox1.DetectUrls = false;
             this.richTextBox1.Location = new System.Drawing.Point(405, 380);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(39, 31);
             this.richTextBox1.TabIndex = 22;
             this.richTextBox1.Text = "";
+            this.richTextBox1.Visible = false;
             // 
             // Seccion1
             // 

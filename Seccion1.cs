@@ -59,5 +59,10 @@ namespace Onlypans
             PNA.Text="";
             PE.Text="";
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
