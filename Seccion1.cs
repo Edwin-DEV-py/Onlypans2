@@ -75,11 +75,12 @@ namespace Onlypans
                 }
 
                 richTextBox1.Text = richTextBox1.Text + "\n";
-                richTextBox1.Text = richTextBox1.Text + "-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------";
+                richTextBox1.Text = richTextBox1.Text + "------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------";
                 richTextBox1.Text = richTextBox1.Text + "\n";
             }
-            admin aa = new admin();
-            aa.cajarica2.Text = richTextBox1.Text;
+            Form1 aa = new Form1();
+            aa.richTextBox3.Text = richTextBox1.Text;
+            aa.Show();
         }
     }
 }
