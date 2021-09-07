@@ -67,6 +67,9 @@
     <Compile Include="Seccion1.Designer.cs">
       <DependentUpon>Seccion1.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="admin.resx">
+      <DependentUpon>admin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

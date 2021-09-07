@@ -62,7 +62,24 @@ namespace Onlypans
 
         private void button2_Click(object sender, EventArgs e)
         {
+            for (int i = 0; i < dataGridView1.Rows.Count - 1; i++)
+            {
 
+                richTextBox1.Text = richTextBox1.Text;
+
+                for (int j = 0; j < dataGridView1.Columns.Count; j++)
+                {
+
+                    richTextBox1.Text = richTextBox1.Text + "        " + dataGridView1.Rows[i].Cells[j].Value.ToString() + "        ";
+
+                }
+
+                richTextBox1.Text = richTextBox1.Text + "\n";
+                richTextBox1.Text = richTextBox1.Text + "-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------";
+                richTextBox1.Text = richTextBox1.Text + "\n";
+            }
+            admin aa = new admin();
+            aa.cajarica2.Text = richTextBox1.Text;
         }
     }
 }

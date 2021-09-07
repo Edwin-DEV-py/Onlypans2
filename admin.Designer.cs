@@ -29,12 +29,31 @@ namespace Onlypans
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.cajarica2 = new System.Windows.Forms.RichTextBox();
+            this.SuspendLayout();
+            // 
+            // cajarica2
+            // 
+            this.cajarica2.Location = new System.Drawing.Point(12, 16);
+            this.cajarica2.Name = "cajarica2";
+            this.cajarica2.Size = new System.Drawing.Size(715, 242);
+            this.cajarica2.TabIndex = 0;
+            this.cajarica2.Text = "";
+            // 
+            // admin
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(739, 311);
+            this.Controls.Add(this.cajarica2);
+            this.Name = "admin";
             this.Text = "admin";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        public System.Windows.Forms.RichTextBox cajarica2;
     }
 }

@@ -30,13 +30,20 @@ namespace Onlypans
             string Admin = "Admin";
             string CAdmin = "Admin";
 
-            if((TxTUser.Text == User1 && TxTContra.Text == Contra1)||(TxTUser.Text == User2 && TxTContra.Text == Contra2) || (TxTUser.Text == User3 && TxTContra.Text == Contra3) || (TxTUser.Text == User4 && TxTContra.Text == Contra4))
+            if ((TxTUser.Text == User1 && TxTContra.Text == Contra1) || (TxTUser.Text == User2 && TxTContra.Text == Contra2) || (TxTUser.Text == User3 && TxTContra.Text == Contra3) || (TxTUser.Text == User4 && TxTContra.Text == Contra4))
             {
                 Seccion1 seccion = new Seccion1();
                 Seccion1 Ventana2 = new Seccion1();
                 Ventana2.Show();
 
             }
+            else if((TxTUser.Text == Admin && TxTContra.Text == CAdmin))
+            {
+
+                admin Ventana3 = new admin();
+                Ventana3.Show();
+            }
+        
         }
 
         private void Form1_Load(object sender, EventArgs e)

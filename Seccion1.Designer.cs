@@ -46,7 +46,6 @@ namespace Onlypans
             this.PNA = new System.Windows.Forms.TextBox();
             this.PE = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -55,6 +54,7 @@ namespace Onlypans
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -225,16 +225,6 @@ namespace Onlypans
             this.dataGridView1.Size = new System.Drawing.Size(661, 191);
             this.dataGridView1.TabIndex = 19;
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(469, 135);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(124, 31);
-            this.button1.TabIndex = 20;
-            this.button1.Text = "Vender";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // Column1
             // 
             this.Column1.HeaderText = "Documento";
@@ -282,6 +272,16 @@ namespace Onlypans
             this.Column8.HeaderText = "Precio";
             this.Column8.Name = "Column8";
             this.Column8.ReadOnly = true;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(469, 135);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(124, 31);
+            this.button1.TabIndex = 20;
+            this.button1.Text = "Vender";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -357,7 +357,6 @@ namespace Onlypans
         private System.Windows.Forms.TextBox PA;
         private System.Windows.Forms.TextBox PNA;
         private System.Windows.Forms.TextBox PE;
-        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
@@ -369,5 +368,6 @@ namespace Onlypans
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.RichTextBox richTextBox1;
+        public System.Windows.Forms.DataGridView dataGridView1;
     }
 }
